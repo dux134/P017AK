@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.dux.p017ak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="Whole Course">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard" />
+        <activity
+            android:name=".more_website.MoreWebsites"
+            android:label="Websites" />
+        <activity android:name=".subject.Subject" />
+        <activity
+            android:name=".course_subject.CourseSubjectList"
+            android:label="Subjects" />
+        <activity android:name=".course_subject.CourseSubject" />
+        <activity android:name=".Feedback"></activity>
+    </application>
+
+</manifest>

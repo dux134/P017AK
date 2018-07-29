@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change_course"
+        android:orderInCategory="100"
+        android:title="change_course"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share_notes"
+        android:orderInCategory="100"
+        android:title="share_notes_with_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="feedback"
+        app:showAsAction="never" />
+</menu>

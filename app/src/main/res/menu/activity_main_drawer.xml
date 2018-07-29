@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Websites">
+        <menu>
+            <item
+                android:id="@+id/navigation_more_websites"
+                android:title="More Websites"
+                android:icon="@drawable/ic_websites_black_24dp"/>
+        </menu>
+    </item>
+
+    <item android:title="Select Your Branch">
+        <menu>
+            <item
+                android:id="@+id/navigation_secondYear"
+                android:title="IInd Year"
+                android:icon="@drawable/ic_looks_two_black_24dp"/>
+
+            <item
+                android:id="@+id/navigation_thirdYear"
+                android:title="IIIrd Year"
+                android:icon="@drawable/ic_looks_3_black_24dp"/>
+
+            <item
+                android:id="@+id/navigation_fourthYear"
+                android:title="IVth Year"
+                android:icon="@drawable/ic_looks_4_black_24dp"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate us" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
